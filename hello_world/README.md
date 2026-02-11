@@ -1,17 +1,33 @@
-# hello_world
+# Hello World Flutter App
 
-A new Flutter project.
+A beautiful Flutter application with a stunning blue gradient background.
+
+## Features
+- Blue gradient background
+- Clean, modern UI design
+- Responsive layout
+
+## Developer
+**ISHIMWE Ami Paradis**  
+University of Rwanda
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Run the app
+```bash
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+### Run on emulator
+```bash
+flutter emulators --launch Medium_Phone_API_36.1
+flutter run -d emulator-5554
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Hot reload
+Press `r` in the terminal to see changes instantly.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Requirements
+- Flutter SDK 3.41.0+
+- Dart 3.11.0+
+- Android Studio (for emulator)
